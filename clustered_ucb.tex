@@ -1,0 +1,106 @@
+% This is LLNCS.DEM the demonstration file of
+% the LaTeX macro package from Springer-Verlag
+% for Lecture Notes in Computer Science,
+% version 2.4 for LaTeX2e as of 16. April 2010
+%
+\documentclass{llncs}
+%
+\usepackage{makeidx}  % allows for indexgeneration
+\usepackage{macros}
+\usepackage{natbib}
+%
+\begin{document}
+%
+\frontmatter          % for the preliminaries
+%
+\pagestyle{headings}  % switches on printing of running heads
+\addtocmark{Clustered UCB} % additional mark in the TOC
+
+\mainmatter              % start of the contributions
+%
+\title{UCB with clustering and improved exploration}
+%
+\titlerunning{Clustered UCBV}  % abbreviated title (for running head)
+%                                     also used for the TOC unless
+%                                     \toctitle is used
+%
+\author{Subhojyoti Mukherjee${}^1$, L. A. Prashanth${}^1$, Nandan
+Sudarsanam${}^2$, Balaraman Ravindran${}^1$}
+%
+\authorrunning{Subhojyoti Mukherjee et al.} % abbreviated author list (for running head)
+%
+%%%% list of authors for the TOC (use if author list has to be modified)
+\tocauthor{Subhojyoti Mukherjee,  L. A. Prashanth, Nandan Sudarsanam and 
+ Balaraman Ravindran}
+%
+\institute{${}^1$Department of Computer Science \& Engineering, 
+${}^2$Department of Management Studies,\\ Indian Institute of
+Technology Madras\\
+%\email{subho@cse.iitm.ac.in}
+}
+%Universit\'{e} de Paris-Sud,
+%Laboratoire d'Analyse Num\'{e}rique, B\^{a}timent 425,\\
+%F-91405 Orsay Cedex, France
+%,\\ WWW home page:
+%\texttt{http://users/\homedir iekeland/web/welcome.html}
+
+\maketitle              % typeset the title of the contribution
+
+\begin{abstract}
+In this paper, we present a novel algorithm for the stochastic multi-armed bandit (MAB) problem. Our proposed Efficient Clustered UCB method, referred to as EClusUCB partitions the arms into clusters and then follows the UCB-Improved strategy with aggressive exploration factors to eliminate sub-optimal arms, as well as entire clusters. Through a theoretical analysis, we establish that EClusUCB achieves a better gap-dependent regret upper bound than UCB-Improved~\cite{auer2010ucb} and MOSS~\cite{audibert2009minimax} algorithms. Further, numerical experiments on test-cases with small gaps between optimal and sub-optimal mean rewards show that EClusUCB results in lower cumulative regret than several popular UCB variants as well as MOSS, OCUCB~\cite{lattimore2015optimally}, Thompson sampling and Bayes-UCB\cite{kaufmann2012bayesian}. 
+%We also present another algorithm called Adaptive Clustered UCB or AClusUCB which is intended to look at the effect of using more traditional approaches, like hierarchical clustering, for the grouping of arms.
+
+\keywords{Multi-armed Bandits, Cumulative Regret, Clustering, UCB-Improved}
+\end{abstract}
+
+%\vspace*{-3em}
+\section{Introduction}
+\label{sec:intro}
+\input{intro}
+
+\section{Algorithm: Efficient Clustered UCB}
+\label{sec:eclusucb}
+\input{ealgo}
+
+\section{Main results}
+\label{sec:results}
+\input{results}
+
+\section{Proof of Theorem 1}
+\label{sec:proofTheorem}
+\input{proofTheorem}
+%
+
+\section{Simulation experiments}
+\label{sec:expts}
+\input{expts}
+%
+
+\section{Conclusions and future work}
+\label{sec:conclusions}
+From a theoretical viewpoint, we conclude that the gap-dependent regret bound of EClusUCB is lower than MOSS and UCB-Improved. From the numerical experiments on settings with small gaps between optimal and sub-optimal mean rewards, we observed that EClusUCB outperforms several popular bandit algorithms,  including OCUCB. Also EClusUCB is remarkably stable for a large horizon and large number of arms and performs well across different types of distributions. While we exhibited better regret bounds for EClusUCB, it would be interesting future research to improve the theoretical analysis of EClusUCB to achieve the gap-independent regret bound of MOSS and OCUCB. This is also one of the first papers to apply clustering in stochastic MAB and another future direction is to use this in contextual or in distributed bandits. 
+
+%Distributed bandits are a specific setup of MAB where a network of bandits collaborate with each other to identify the optimal arm(s) (see \cite{awerbuch2008competitive,liu2010distributed,szorenyi2013gossip,hillel2013distributed}). In our setting we can assign each of the $p$ clusters to individual bandits and at the end of each round they can share information synchronously to identify the optimal arm. This naturally results in a speedup of operation and helps in identifying the best arm faster. 
+
+
+%\clearpage
+%\newpage
+% In the unusual situation where you want a paper to appear in the
+% references without citing it in the main text, use \nocite
+%\nocite{langley00}
+
+\bibliography{biblio1}
+%\bibliographystyle{apalike}
+\bibliographystyle{plain}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\newpage
+%\onecolumn	
+\section*{Appendix}
+\input{appendix}
+
+\end{document}

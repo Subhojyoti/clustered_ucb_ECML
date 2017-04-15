@@ -1,0 +1,121 @@
+\begin{thebibliography}{10}
+
+\bibitem{agrawal2011analysis}
+Shipra Agrawal and Navin Goyal.
+\newblock Analysis of thompson sampling for the multi-armed bandit problem.
+\newblock {\em arXiv preprint arXiv:1111.1797}, 2011.
+
+\bibitem{audibert2009minimax}
+Jean-Yves Audibert and S{\'e}bastien Bubeck.
+\newblock Minimax policies for adversarial and stochastic bandits.
+\newblock In {\em COLT}, pages 217--226, 2009.
+
+\bibitem{audibert2009exploration}
+Jean-Yves Audibert, R{\'e}mi Munos, and Csaba Szepesv{\'a}ri.
+\newblock Exploration--exploitation tradeoff using variance estimates in
+  multi-armed bandits.
+\newblock {\em TCS}, 410(19):1876--1902, 2009.
+
+\bibitem{auer2002finite}
+Peter Auer, Nicolo Cesa-Bianchi, and Paul Fischer.
+\newblock Finite-time analysis of the multiarmed bandit problem.
+\newblock {\em Machine learning}, 47(2-3):235--256, 2002.
+
+\bibitem{auer2002nonstochastic}
+Peter Auer, Nicolo Cesa-Bianchi, Yoav Freund, and Robert~E Schapire.
+\newblock The nonstochastic multiarmed bandit problem.
+\newblock {\em SICOMP}, 32(1):48--77, 2002.
+
+\bibitem{auer2010ucb}
+Peter Auer and Ronald Ortner.
+\newblock Ucb revisited: Improved regret bounds for the stochastic multi-armed
+  bandit problem.
+\newblock {\em Periodica Mathematica Hungarica}, 61(1-2):55--65, 2010.
+
+\bibitem{bubeck2012bandits}
+S{\'e}bastien Bubeck, Nicolo Cesa-Bianchi, and G{\'a}bor Lugosi.
+\newblock Bandits with heavy tail.
+\newblock {\em arXiv preprint arXiv:1209.1727}, 2012.
+
+\bibitem{bubeck2009pure}
+S{\'e}bastien Bubeck, R{\'e}mi Munos, and Gilles Stoltz.
+\newblock Pure exploration in multi-armed bandits problems.
+\newblock In {\em ALT}, pages 23--37. Springer, 2009.
+
+\bibitem{bubeck2011pure}
+S{\'e}bastien Bubeck, R{\'e}mi Munos, and Gilles Stoltz.
+\newblock Pure exploration in finitely-armed and continuous-armed bandits.
+\newblock {\em TCS}, 412(19):1832--1852, 2011.
+
+\bibitem{CapGarKau12}
+Olivier Cappe, Aurelien Garivier, and Emilie Kaufmann.
+\newblock pymabandits, 2012.
+\newblock \url{http://mloss.org/software/view/415/}.
+
+\bibitem{even2006action}
+Eyal Even-Dar, Shie Mannor, and Yishay Mansour.
+\newblock Action elimination and stopping conditions for the multi-armed bandit
+  and reinforcement learning problems.
+\newblock {\em JMLR}, 7:1079--1105, 2006.
+
+\bibitem{friedman2001elements}
+Jerome Friedman, Trevor Hastie, and Robert Tibshirani.
+\newblock {\em The elements of statistical learning}, volume~1.
+\newblock Springer series in statistics Springer, Berlin, 2001.
+
+\bibitem{garivier2011kl}
+Aur{\'e}lien Garivier and Olivier Capp{\'e}.
+\newblock The kl-ucb algorithm for bounded stochastic bandits and beyond.
+\newblock {\em arXiv preprint arXiv:1102.2490}, 2011.
+
+\bibitem{honda2010asymptotically}
+Junya Honda and Akimichi Takemura.
+\newblock An asymptotically optimal bandit algorithm for bounded support
+  models.
+\newblock In {\em COLT}, pages 67--79. Citeseer, 2010.
+
+\bibitem{kaufmann2012bayesian}
+Emilie Kaufmann, Olivier Capp{\'e}, and Aur{\'e}lien Garivier.
+\newblock On bayesian upper confidence bounds for bandit problems.
+\newblock In {\em AISTATS}, pages 592--600, 2012.
+
+\bibitem{lai1985asymptotically}
+Tze~Leung Lai and Herbert Robbins.
+\newblock Asymptotically efficient adaptive allocation rules.
+\newblock {\em Advances in applied mathematics}, 6(1):4--22, 1985.
+
+\bibitem{lattimore2015optimally}
+Tor Lattimore.
+\newblock Optimally confident ucb: Improved regret for finite-armed bandits.
+\newblock {\em arXiv preprint arXiv:1507.07880}, 2015.
+
+\bibitem{liu2016modification}
+Yun-Ching Liu and Yoshimasa Tsuruoka.
+\newblock Modification of improved upper confidence bounds for regulating
+  exploration in monte-carlo tree search.
+\newblock {\em TCS}, 2016.
+
+\bibitem{mannor2004sample}
+Shie Mannor and John~N Tsitsiklis.
+\newblock The sample complexity of exploration in the multi-armed bandit
+  problem.
+\newblock {\em JMLR}, 5(Jun):623--648, 2004.
+
+\bibitem{robbins1952some}
+Herbert Robbins.
+\newblock Some aspects of the sequential design of experiments.
+\newblock In {\em Herbert Robbins Selected Papers}, pages 169--177. Springer,
+  1952.
+
+\bibitem{thompson1933likelihood}
+William~R Thompson.
+\newblock On the likelihood that one unknown probability exceeds another in
+  view of the evidence of two samples.
+\newblock {\em Biometrika}, pages 285--294, 1933.
+
+\bibitem{tolpin2012mcts}
+David Tolpin and Solomon~Eyal Shimony.
+\newblock Mcts based on simple regret.
+\newblock In {\em AAAI}, 2012.
+
+\end{thebibliography}

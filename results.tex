@@ -1,0 +1,117 @@
+	
+We now state the main result that upper bounds the expected regret of EClusUCB.
+\begin{theorem}[\textbf{\textit{Regret bound}}]
+\label{Result:Theorem:1}
+The regret $R_T$ of EClusUCB satisfies
+\begin{align*}
+&\E [R_{T}]\leq 
+\sum\limits_{\substack{i\in A_{s^{*}},\\\Delta_{i} > b}}\bigg\lbrace \frac{C_1(\rho_{a})T^{1-\rho_{a}}}{\Delta_{i}^{4\rho_{a}-1}} + \Delta_{i}
++ \frac{32\log{(\psi T\frac{\Delta_{i}^{4}}{16})}}{\Delta_{i}} \bigg\rbrace
+ + \! \! \sum\limits_{\substack{i\in A,\\\Delta_{i} > b}} \bigg\lbrace 2\Delta_{i}+
+\frac{C_1(\rho_{s})T^{1-\rho_{s}}}{\Delta_{i}^{4\rho_{s}-1}} \\
+%%%%%%%%%%%%%%%%%
+&+ \frac{32\log{(\psi T\frac{\Delta_{i}^{4}}{16})}}{\Delta_{i}} 
++ \frac{32\log{(\psi T\frac{\Delta_{i}^{4}}{16})}}{\Delta_{i}}\bigg\rbrace 
++ \sum\limits_{\substack{i\in A_{s^{*}},\\ \Delta_{i} > b}} 
+\frac{C_2(\rho_{a})T^{1-\rho_{a}}}{\Delta_{i}^{4\rho_{a}-1}}
++\sum\limits_{\substack{i\in A_{s^{*}},\\0 < \Delta_{i}\leq b}}\frac{C_2(\rho_a)T^{1-\rho_{a}}}{b^{4\rho_{a} -1}}\\ 
+%%%%%%%
+%&+ \!\sum\limits_{\substack{i\in A,\\ \Delta_{i} > b}}\! \! \frac{C_2(\rho_{s})T^{1-\rho_{s}}}{\Delta_{i}^{4\rho_{s}-1}}
+% + \!\sum\limits_{\substack{i\in A,\\0 < \Delta_{i}\leq b}}\! \! \frac{C_2(\rho_{s})T^{1-\rho_{s}}}{b^{4\rho_{s} -1}}  \\
+&+ \sum_{\substack{i\in A\setminus A_{s^*}:\\\Delta_{i}> b}}\frac{2C_{2}(\rho_{s})T^{1-\rho_{s}}}{\Delta_{i}^{4\rho_{s}-1}} +\sum_{\substack{i\in A \setminus A_{s^*}:\\ 0 < \Delta_{i} \leq b}}\frac{2C_{2}(\rho_{s})T^{1-\rho_{s}}}{b^{4\rho_{s}-1}}\\
+& \!+\! \max\limits_{i:\Delta_{i}\leq b}\Delta_{i}T, 
+\end{align*}
+where $b\geq \sqrt{\frac{K}{14 T}}$, $C_1(x) = \frac{2^{1+4x}x^{2x}}{\psi^{x}}$, $C_2(x) = \frac{2^{2x+\frac{3}{2}}x^{2x}}{\psi^{x}}$, and $A_{s^{*}}$ is the subset of arms in cluster $s^{*}$ containing optimal arm $a^{*}$.
+%, $\rho_{a}=\frac{1}{2},\rho_{s}=\frac{1}{2}$ and $\psi=K^{2}T$.
+\end{theorem}
+\begin{proof}
+ See Section \ref{sec:proofTheorem}.
+\end{proof}
+We now specialize the result in the theorem above by substituting specific values for the exploration constants $\rho_{s}$, $\rho_{a}$ and $\psi$. 
+
+
+%%%% Gap dependent bound
+\begin{corollary}[\textbf{\textit{Gap-dependent bound}}]
+\label{Result:Corollary:1}
+With $\psi=\frac{T}{196\log (K)}$, $\rho_{a}=\frac{1}{2}$, and $\rho_{s}=\frac{1}{2}$,  we have the following gap-dependent bound for the regret of EClusUCB:
+\begin{align*}
+&\E [R_T] \!\le\! 
+\sum_{\substack{i\in A_{s^{*}}:\\\Delta_{i} > b}}\bigg\lbrace \frac{192\sqrt{\log (K)}}{\Delta_{i}} + \Delta_{i} + 
+ \frac{64\log{(T\frac{\Delta_{i}^{2}}{\sqrt{\log (K)}})}}{\Delta_{i}} \bigg\rbrace + \sum_{i\in A:\Delta_{i} > b}\bigg\lbrace\frac{112\sqrt{\log (K)}}{\Delta_{i}} \\
+ %%%%%%%%%%%%%%%%%%%%%%
+ & + 2\Delta_{i}  + \frac{128\log{(T\frac{\Delta_{i}^{2}}{\sqrt{\log (K)}})}}{\Delta_{i}}\bigg\rbrace
+	  + \sum\limits_{\substack{i\in A_{s^{*}}:\\0< \Delta_{i} \leq b}}\frac{80\sqrt{\log (K)}}{\Delta_{i}}
+	 + \sum\limits_{\substack{i\in A\setminus A_{s^{*}}:\\\Delta_{i} > b}}\frac{160\sqrt{\log (K)}}{\Delta_{i}} \\
+	 %%%%%%%%%%%%%%%%%%%%
+	 & + \sum\limits_{\substack{i\in A\setminus A \cup A_{s^{*}}:\\0 < \Delta_{i}\leq b}}\frac{160\sqrt{\log (K)}}{\Delta_{i}}  + \max\limits_{i\in A:\Delta_{i}\leq b}\Delta_{i}T, \quad \text{ for all }b\geq \sqrt{\frac{K}{14 T}}.
+	\end{align*} 
+\end{corollary}
+\begin{proof}
+ See Appendix \ref{App:Proof:Corollary:1}.
+\end{proof}
+
+The most significant term in the bound above is $\sum_{i\in A:\Delta_{i}\geq b}\frac{128\log{\big(T\frac{\Delta_{i}^{2}}{\sqrt{\log (K)}}\big)}}{\Delta_{i}}$ and hence, the regret upper bound for EClusUCB is of the order $O\bigg(\frac{K\log \big(\frac{T\Delta^{2}}{\sqrt{\log (K)}}\big)}{\Delta}\bigg)$. Since Corollary \ref{Result:Corollary:1} holds for all $\Delta \geq \sqrt{\frac{K}{14 T}} $, it can be clearly seen that for all $\sqrt{\frac{K}{14 T}} \leq \Delta\leq 1$ and $K\geq 2$, the gap-dependent bound is better than that of UCB1, UCB-Improved and MOSS (see Table~\ref{tab:regret-bds}). 
+
+%Also, the gap-independent bound of UCB-Improved holds for $ \sqrt{\frac{K\log K}{T}} \Delta \leq 1$, 
+
+%in ClusUCB if we take $\gamma$ such that $\frac{K}{\gamma}\approx e$ then $\Delta\geq\sqrt{\frac{K}{\gamma T}}\geq \sqrt{\frac{e}{T}}$ and we can easily mimic the same guarantee as UCB-Improved. %In the theoretical results as well as in the experiments we have taken $\gamma =7$. 
+%In the experiments we have taken $\gamma =7$. 
+
+
+\begin{corollary}[\textbf{\textit{Gap-independent bound}}]
+\label{Result:Corollary:2}
+Considering the same gap of $\Delta_{i} = \Delta =\sqrt{\frac{K\log K}{T}}$ for all ${i:i\neq *}$ and with $\psi=\frac{T}{196 \log K}$, $p=\left\lceil\frac{K}{\log K}\right\rceil$, $\rho_{a}=\frac{1}{2}$ and $\rho_{s}=\frac{1}{2}$, 
+ we have the following gap-independent bound for the regret of EClusUCB:
+\begin{align*}
+ \E[R_{T}]\le & 540\frac{\sqrt{T}\log K}{\sqrt{K}} \!+\! \frac{64\sqrt{T\log K}\log{(\log K)}}{\sqrt{K}}\\
+  &\!+\! 112\sqrt{KT} \!+\! 256\sqrt{KT\log K}
+	 + \frac{128\sqrt{KT}\log{(\log K)}}{\sqrt{\log K}} + 300\sqrt{\frac{T\log K}{e}}\\
+%%%%%%%%%%%%%%%%%%%
+	& + 600\sqrt{\frac{T}{e}}(\log K)^{\frac{3}{2}} + 600 \frac{K}{K+\log K}\sqrt{KT}
+\end{align*}
+\end{corollary}
+\begin{proof}
+ See Appendix \ref{App:Proof:Corollary:2}.
+\end{proof}
+
+
+From the above result, we observe that the order of the regret upper bound of EClusUCB is $O(\sqrt{KT\log K})$, and this matches the order of UCB-Improved. However, this is not as low as the order $O(\sqrt{KT})$ of MOSS or OCUCB. Also, the gap-independent bound of UCB-Improved holds for $ \sqrt{\frac{e}{T}} \leq \Delta \leq 1$ while in our case the gap independent bound holds for $\sqrt{\frac{K}{14T}} \leq \Delta \leq 1$.
+
+%\begin{corollary}[\textbf{\textit{Gap-independent bound}}]
+%\label{Result:Corollary:3}
+%With $\psi=K^{2}T$, $\rho_{a}=\frac{1}{4}$ ,$\rho_{s}=\frac{1}{2} $ and $b\approx\sqrt{\frac{K\log K}{T}}$, the regret of ClusUCB is bounded  by $\bigg\lbrace 2\sqrt{KT} + 64\sqrt{KT\log K} + \frac{32\log{(\log K)}}{\sqrt{\log K}} + 4\frac{\sqrt{KT}}{p}  + 16\sqrt{\frac{T}{K\log K}}\bigg\rbrace$.
+%\end{corollary}
+%\begin{proof}
+% See Appendix \ref{App:Proof:Corollary:3}.
+% 
+%From the above result we see that this bound is less than than the bound in Corollary \ref{Result:Corollary:2}. Here we also define the error bound, which is the bound on the regret obtained after elimination of the optimal arm $a^{*}$. So the  error bound from Corollary \ref{Result:Corollary:2} is 
+%
+%\begin{align*}
+%5.6\sqrt{KT} + 4\frac{\sqrt{KT}}{p}
+%\end{align*}
+%
+%which is more than the error bound from Corollary \ref{Result:Corollary:3},
+%
+%\begin{align*}
+%16\sqrt{\frac{T}{K\log K}} + 4\frac{\sqrt{KT}}{p}
+%\end{align*}
+%
+%for $ \sqrt{\log K} \leq p\leq\frac{K}{2}$. So by taking $\rho_{a} < \rho_{s}$ we are able to reduce the error bound and this helps the algorithm to perform better in regimes where the gaps are small by keeping the optimal arm safe with high probability. 
+%
+%\end{proof}
+%\vspace*{-1.5em}
+\subsection*{Analysis of elimination error (Why Clustering?)}
+%\vspace*{-0.4em}
+Let $\widetilde R_T$ denote the contribution  to the expected regret in the case when the optimal arm $*$ gets eliminated during one of the rounds of EClusUCB. This can happen if a sub-optimal arm eliminates $*$ or if a sub-optimal cluster eliminates the cluster $s^*$ that contains $*$ -- these correspond to cases b2 and b3 in the proof of Theorem \ref{Result:Theorem:1} (see Section \ref{sec:proofTheorem}). 
+We shall denote variant of EClusUCB that includes arm elimination condition only as EClusUCB-AE while EClusUCB corresponds to Algorithm \ref{alg:eclusucb}, which uses both arm and cluster elimination conditions. The regret upper bound for EClusUCB-AE is given in Proposition \ref{proofTheorem:Prop:1} in Appendix \ref{App:A}.
+
+For EClusUCB-AE, the quantity $\widetilde R_T$ can be extracted from the proofs (in particular, case b2 in Appendix \ref{App:A}) and simplified using the values $\rho_{a}=\frac{1}{2}$ and $\psi=\frac{T}{196 \log K}$, to obtain $\widetilde R_T = 300\sqrt{KT\log K}+300\sqrt{KT}$. 
+%A similar exercise for ClusUCB-CE (see Case b2 in Appendix \ref{App:B}) with $\rho_{s}=\frac{1}{2}$ and $\psi=\frac{T}{\log K}$ yields $\tilde R_T = 4\sqrt{KT\log K}$. 
+Finally, for EClusUCB, the relevant terms from Theorem \ref{Result:Theorem:1} that corresponds to $\widetilde R_T$ can be simplified with $\rho_{a}=\frac{1}{2}$, $\rho_{s}=\frac{1}{2},p=\big\lceil \frac{K}{\log K} \big\rceil$ and $\psi=\frac{T}{196\log K}$ (as in Corollary \ref{Result:Corollary:2} to obtain  
+$\tilde R_T = \frac{300 \sqrt{T}\log K^{\frac{3}{2}} }{\sqrt{K}} + \frac{300 \sqrt{T}\log K}{\sqrt{K}} + 600 \frac{K}{K+\log K}\sqrt{KT\log K} + 600 \frac{K}{K+\log K}\sqrt{KT}$. Hence, in comparison to EClusUCB-AE which has an elimination regret bound of $O(\sqrt{KT\log K})$, the elimination error regret bound of EClusUCB is lower and of the order $O(\frac{K}{K+\log K}\sqrt{KT\log K})$. Thus, we observe that clustering in conjunction with improved exploration via $\rho_{a},\rho_{s}$,$p$ and $\psi$ helps in reducing the factor associated with $\sqrt{KT\log K}$ for the gap-independent error regret bound for EClusUCB. Also in section \ref{sec:expts}, in experiment $4$ we show that EClusUCB outperforms EClusUCB-AE. A table containing the regret error bound is shown in Appendix \ref{App:E}.
+% and further experiment showing that the performance of EClusUCB against CCB\cite{liu2016modification} is shown in Appendix \ref{App:MoreExp}.
+%showing that the performance of EClusUCB-AE is indeed sub-optimal and choice of $p$ is indeed close to optimal
+
+Finally, the simple regret guarantee of EClusUCB is weaker than CCB\cite{liu2016modification} which is shown in Theorem \ref{Result:Theorem:3} and Corollary \ref{Result:Corollary:3} in Appendix \ref{App:SR_EClusUCB}. But, this is expected as EClusUCB is geared towards minimizing cumulative regret whereas CCB is made for minimizing simple regret. Also we know from \cite{bubeck2009pure} that algorithms that tend to minimize cumulative regret necessarily ends up having a poorer simple regret guarantee. 
+%The regret upper bound for EClusUCB-AE is given in Proposition \ref{proofTheorem:Prop:1} in Appendix \ref{App:A}. 
+
