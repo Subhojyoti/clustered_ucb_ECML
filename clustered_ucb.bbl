@@ -16,6 +16,11 @@ Jean-Yves Audibert, R{\'e}mi Munos, and Csaba Szepesv{\'a}ri.
   multi-armed bandits.
 \newblock {\em TCS}, 410(19):1876--1902, 2009.
 
+\bibitem{auer2002using}
+Peter Auer.
+\newblock Using confidence bounds for exploitation-exploration trade-offs.
+\newblock {\em JMLR}, 3(Nov):397--422, 2002.
+
 \bibitem{auer2002finite}
 Peter Auer, Nicolo Cesa-Bianchi, and Paul Fischer.
 \newblock Finite-time analysis of the multiarmed bandit problem.
@@ -32,6 +37,11 @@ Peter Auer and Ronald Ortner.
   bandit problem.
 \newblock {\em Periodica Mathematica Hungarica}, 61(1-2):55--65, 2010.
 
+\bibitem{beygelzimer2011contextual}
+Alina Beygelzimer, John Langford, Lihong Li, Lev Reyzin, and Robert~E Schapire.
+\newblock Contextual bandit algorithms with supervised learning guarantees.
+\newblock In {\em AISTATS}, pages 19--26, 2011.
+
 \bibitem{bubeck2012bandits}
 S{\'e}bastien Bubeck, Nicolo Cesa-Bianchi, and G{\'a}bor Lugosi.
 \newblock Bandits with heavy tail.
@@ -47,10 +57,20 @@ S{\'e}bastien Bubeck, R{\'e}mi Munos, and Gilles Stoltz.
 \newblock Pure exploration in finitely-armed and continuous-armed bandits.
 \newblock {\em TCS}, 412(19):1832--1852, 2011.
 
+\bibitem{bui2012clustered}
+Loc Bui, Ramesh Johari, and Shie Mannor.
+\newblock Clustered bandits.
+\newblock {\em arXiv preprint arXiv:1206.4169}, 2012.
+
 \bibitem{CapGarKau12}
 Olivier Cappe, Aurelien Garivier, and Emilie Kaufmann.
 \newblock pymabandits, 2012.
 \newblock \url{http://mloss.org/software/view/415/}.
+
+\bibitem{cesa2013gang}
+Nicolo Cesa-Bianchi, Claudio Gentile, and Giovanni Zappella.
+\newblock A gang of bandits.
+\newblock In {\em NIPS}, pages 737--745, 2013.
 
 \bibitem{even2006action}
 Eyal Even-Dar, Shie Mannor, and Yishay Mansour.
@@ -68,11 +88,10 @@ Aur{\'e}lien Garivier and Olivier Capp{\'e}.
 \newblock The kl-ucb algorithm for bounded stochastic bandits and beyond.
 \newblock {\em arXiv preprint arXiv:1102.2490}, 2011.
 
-\bibitem{honda2010asymptotically}
-Junya Honda and Akimichi Takemura.
-\newblock An asymptotically optimal bandit algorithm for bounded support
-  models.
-\newblock In {\em COLT}, pages 67--79. Citeseer, 2010.
+\bibitem{gentile2014online}
+Claudio Gentile, Shuai Li, and Giovanni Zappella.
+\newblock Online clustering of bandits.
+\newblock In {\em ICML}, pages 757--765, 2014.
 
 \bibitem{kaufmann2012bayesian}
 Emilie Kaufmann, Olivier Capp{\'e}, and Aur{\'e}lien Garivier.
@@ -84,10 +103,22 @@ Tze~Leung Lai and Herbert Robbins.
 \newblock Asymptotically efficient adaptive allocation rules.
 \newblock {\em Advances in applied mathematics}, 6(1):4--22, 1985.
 
+\bibitem{langford2008epoch}
+John Langford and Tong Zhang.
+\newblock The epoch-greedy algorithm for multi-armed bandits with side
+  information.
+\newblock In {\em NIPS}, pages 817--824, 2008.
+
 \bibitem{lattimore2015optimally}
 Tor Lattimore.
 \newblock Optimally confident ucb: Improved regret for finite-armed bandits.
 \newblock {\em arXiv preprint arXiv:1507.07880}, 2015.
+
+\bibitem{li2010contextual}
+Lihong Li, Wei Chu, John Langford, and Robert~E Schapire.
+\newblock A contextual-bandit approach to personalized news article
+  recommendation.
+\newblock In {\em WWW}, pages 661--670. ACM, 2010.
 
 \bibitem{liu2016modification}
 Yun-Ching Liu and Yoshimasa Tsuruoka.
@@ -106,6 +137,11 @@ Herbert Robbins.
 \newblock Some aspects of the sequential design of experiments.
 \newblock In {\em Herbert Robbins Selected Papers}, pages 169--177. Springer,
   1952.
+
+\bibitem{slivkins2014contextual}
+Aleksandrs Slivkins.
+\newblock Contextual bandits with similarity information.
+\newblock {\em JMLR}, 15(1):2533--2568, 2014.
 
 \bibitem{thompson1933likelihood}
 William~R Thompson.

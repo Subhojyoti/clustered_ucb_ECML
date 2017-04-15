@@ -2,44 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: clustered_ucb.aux
 The style file: plain.bst
 Database file #1: biblio1.bib
-You've used 22 entries,
+You've used 29 entries,
             2118 wiz_defined-function locations,
-            626 strings with 7243 characters,
-and the built_in function-call counts, 7537 in all, are:
-= -- 762
-> -- 323
-< -- 7
-+ -- 131
-- -- 104
-* -- 488
-:= -- 1223
-add.period$ -- 69
-call.type$ -- 22
-change.case$ -- 117
+            662 strings with 8116 characters,
+and the built_in function-call counts, 10445 in all, are:
+= -- 1055
+> -- 442
+< -- 11
++ -- 180
+- -- 144
+* -- 679
+:= -- 1660
+add.period$ -- 90
+call.type$ -- 29
+change.case$ -- 158
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 303
-empty$ -- 603
-format.name$ -- 104
-if$ -- 1604
+cite$ -- 29
+duplicate$ -- 427
+empty$ -- 840
+format.name$ -- 144
+if$ -- 2242
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 22
-newline$ -- 113
-num.names$ -- 44
-pop$ -- 129
+int.to.str$ -- 29
+missing$ -- 29
+newline$ -- 148
+num.names$ -- 58
+pop$ -- 178
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 130
 quote$ -- 0
-skip$ -- 227
+skip$ -- 328
 stack$ -- 0
-substring$ -- 488
-swap$ -- 78
-text.length$ -- 7
+substring$ -- 709
+swap$ -- 125
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 86
+type$ -- 114
 warning$ -- 0
-while$ -- 78
-width$ -- 24
-write$ -- 240
+while$ -- 108
+width$ -- 31
+write$ -- 316

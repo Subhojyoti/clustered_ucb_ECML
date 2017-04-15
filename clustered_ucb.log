@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  16 APR 2017 00:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2016.9.30)  16 APR 2017 01:48
 entering extended mode
  %&-line parsing enabled.
 **clustered_ucb.tex
@@ -1145,36 +1145,29 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \rotheadsize=\dimen220
 \c@nlinenum=\count179
 \TeXr@lab=\toks46
-))
-(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
-Package: natbib 2009/07/16 8.31 (PWD, AO)
-\bibhang=\skip72
-\bibsep=\skip73
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count180
-) (./clustered_ucb.aux)
+)) (./clustered_ucb.aux)
 \openout1 = `clustered_ucb.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 18.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 18.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -1182,10 +1175,10 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count181
+\c@section@level=\count180
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
 
 (./clustered_ucb.out) (./clustered_ucb.out)
 \@outlinefile=\write5
@@ -1195,41 +1188,41 @@ LaTeX Info: Redefining \pageref on input line 12.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count182
+\scratchcounter=\count181
 \scratchdimen=\dimen221
 \scratchbox=\box89
-\nofMPsegments=\count183
-\nofMParguments=\count184
+\nofMPsegments=\count182
+\nofMParguments=\count183
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count185
+\MPscratchCnt=\count184
 \MPscratchDim=\dimen222
-\MPnumerator=\count186
+\MPnumerator=\count185
 \everyMPtoPDFconversion=\toks48
 ) ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
-LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 
-Overfull \hbox (3.48502pt too wide) in paragraph at lines 53--54
+Overfull \hbox (3.48502pt too wide) in paragraph at lines 59--60
 \OT1/ptm/b/n/9 Keywords:\OT1/ptm/m/n/9 Multi-armed Ban-dits, Cu-mu-la-tive Re-g
 ret, Clus-ter-ing, UCB-Improved 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 (./intro.tex [1
 
 
@@ -1249,7 +1242,11 @@ Overfull \hbox (2.88066pt too wide) in paragraph at lines 52--91
 hat of MOSS when $[] \OMS/cmsy/m/n/10 ^^T
  []
 
-[3]) (./ealgo.tex
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+(./ealgo.tex
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
@@ -1258,11 +1255,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4]
-Underfull \vbox (badness 2726) has occurred while \output is active []
-
- [5])
-(./results.tex
+[4] [5]) (./results.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 3.
 
@@ -1275,13 +1268,13 @@ Overfull \hbox (16.5951pt too wide) in paragraph at lines 47--47
 [] 
  []
 
-[6]
+[6] [7]
 Overfull \hbox (0.53804pt too wide) in paragraph at lines 108--114
 \OT1/ptm/m/n/10 tion er-ror re-gret bound of EClusUCB is lower and of the or-de
 r $\OML/cmm/m/it/10 O\OT1/cmr/m/n/10 ([][])$\OT1/ptm/m/n/10 .
  []
 
-[7]) (./proofTheorem.tex [8] [9] [10]
+) (./proofTheorem.tex [8] [9] [10] [11]
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 159.
 
@@ -1290,12 +1283,13 @@ LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 159.
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 159.
 
 
-[11]) (./expts.tex
+) (./expts.tex
 Overfull \hbox (11.97333pt too wide) in paragraph at lines 1--4
 \OT1/ptm/m/n/10 Me-dian Elimination[[]], Thomp-son Sampling(TS)[[]], OCUCB[[]],
  Bayes-UCB(BU)[[]]
  []
 
+[12]
 PGFPlots: reading {results/NewExpt1/Expt1/UCBV01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt1/Expt1/NEclUCB01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt1/Expt1/KLUCB01_comp_subsampled.txt}
@@ -1321,10 +1315,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--78
 0$ \OT1/ptm/m/n/9 Gaussian-
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12]
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalMOSS20_100.txt}
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalFEclUCB20_100.txt}
 PGFPlots: reading {results/NewExpt/Expt3_1/plotFinalOCUCB20_100.txt}
@@ -1335,30 +1325,24 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 3849) has occurred while \output is active []
-
- [13])
-Overfull \hbox (8.2925pt too wide) in paragraph at lines 81--82
+[13])
+Overfull \hbox (8.2925pt too wide) in paragraph at lines 87--88
 \OT1/ptm/m/n/10 served that EClusUCB out-per-forms sev-eral pop-u-lar ban-dit a
 l-go-rithms, in-clud-ing OCUCB.
  []
 
-(./clustered_ucb.bbl [14]
-Underfull \hbox (badness 2158) in paragraph at lines 14--18
-[]\OT1/ptm/m/n/10 Jean-Yves Au-dib-ert, R[]emi Munos, and Csaba Szepesv[]ari.  
-Exploration--
+[14] (./clustered_ucb.bbl
+Underfull \hbox (badness 1990) in paragraph at lines 61--64
+[]\OT1/ptm/m/n/9 Loc Bui, Ramesh Jo-hari, and Shie Man-nor.  Clus-tered ban-dit
+s.  \OT1/ptm/m/it/9 arXiv preprint
  []
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 53.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 68.
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [15
-
-]) [16]
+) [15]) [16]
 (./appendix.tex [17
 
 ]
@@ -1592,10 +1576,6 @@ Overfull \hbox (48.27225pt too wide) in paragraph at lines 926--927
 at the rate of $\OML/cmm/m/it/10 O []$\OT1/ptm/m/n/10 ,
  []
 
-
-Package natbib Warning: Author undefined for citation`friedman2001elements' 
-(natbib)                on page 27 on input line 995.
-
 [27] [28]
 PGFPlots: reading {results/NewExpt/Expt4/plotFinalAEclUCB02.txt}
 PGFPlots: reading {results/NewExpt/Expt4/plotFinalFEclUCB02.txt}
@@ -1607,54 +1587,50 @@ tive re-gret
 
 PGFPlots: reading {results/NewExpt/Expt5/CCB01_comp_subsampled.txt}
 PGFPlots: reading {results/NewExpt/Expt5/FEclUCB01_comp_subsampled.txt}
-[29]) [30] (./clustered_ucb.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[29]) [30] (./clustered_ucb.aux) ) 
 Here is how much of TeX's memory you used:
- 22957 strings out of 493848
- 465547 string characters out of 1152823
- 654568 words of memory out of 3000000
- 25511 multiletter control sequences out of 15000+50000
+ 22617 strings out of 493848
+ 460941 string characters out of 1152823
+ 653160 words of memory out of 3000000
+ 25168 multiletter control sequences out of 15000+50000
  46498 words of font info for 107 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 63i,29n,75p,2102b,1780s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cmextra/cmbsy5.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cmextra
-/cmex7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmex9.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
-hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmmi9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmib10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy9.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/share/texmf
--texlive/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-texlive/fonts/typ
-e1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a
-.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
-mf-texlive/fonts/type1/urw/times/utmri8a.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/urw/zapfding/uzdr.pfb>
-Output written on clustered_ucb.pdf (30 pages, 567391 bytes).
+ 63i,29n,75p,2101b,1780s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/bas
+e/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmbsy5.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cmextra/cmmib5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cmextra/cmmib7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/symbols/msam10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/symbols/msbm10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/sym
+bols/msbm7.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrr8a.pfb></u
+sr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texli
+ve/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/
+times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb></
+usr/share/texmf-texlive/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on clustered_ucb.pdf (30 pages, 573089 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
- 117 named destinations out of 1000 (max. 500000)
+ 641 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

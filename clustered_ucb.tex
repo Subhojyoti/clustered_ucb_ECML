@@ -7,8 +7,14 @@
 %
 \usepackage{makeidx}  % allows for indexgeneration
 \usepackage{macros}
-\usepackage{natbib}
+%\usepackage{natbib}
 %
+%\usepackage[numbers]{natbib}
+%% Hack natbib so it matches the LNCS style: reference list in a
+%% section with small font and no square brackets.
+%\renewcommand\bibsection
+%  {\section*{\refname}\small\renewcommand\bibnumfmt[1]{##1.}}
+
 \begin{document}
 %
 \frontmatter          % for the preliminaries
